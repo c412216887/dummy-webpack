@@ -1,0 +1,19 @@
+{
+  "name": "cwebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env WEBPACK_PACKAGE=/packages/webpack/lib/webpack.js node ./bin/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "webpack": "./bin/index.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.18.0"
+  }
+}
